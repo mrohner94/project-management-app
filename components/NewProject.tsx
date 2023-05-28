@@ -6,7 +6,7 @@ import Modal from "react-modal";
 import Button from "./Button";
 import Input from "./Input";
 
-// Modal.setAppElement("#modal");
+Modal.setAppElement("#modal");
 
 const NewProject = () => {
   const [isModalOpen, setIsOpen] = useState(false);
